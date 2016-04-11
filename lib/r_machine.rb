@@ -23,7 +23,7 @@ module RMachine
   private
 
   module ClassMethods
-    def rmachine
+    def r_machine
       @@state_template = StateTemplate.new
       yield @@state_template
     end
