@@ -2,6 +2,21 @@
 
 [![Build Status](https://travis-ci.org/rafaels88/rmachine.svg?branch=master)](https://travis-ci.org/rafaels88/rmachine)
 
+RMachine is a simple state machine library built for Ruby Applications.
+
+Current stable version [v0.1.0](https://github.com/rafaels88/rmachine/tree/v0.1.0)
+
+### Install
+
+`gem install r_machine -v 0.1.0`
+
+or put in your Gemfile
+
+`gem 'r_machine' ~> 0.1.0`
+
+
+## QuickStart
+
 ```ruby
 class Entity
   include RMachine
@@ -61,3 +76,12 @@ puts entity.status # :fourth_state
 entity.status = :created
 puts entity.status # :created
 ```
+
+### Contributing
+
+If you have found any bug, have any idea or anything else which may contribute with this project,
+please feel free to create new issues, open/send Pull Requests or make any comment.
+
+### License
+
+RMachine is under MIT license
