@@ -1,6 +1,6 @@
 # State Machine
 
-[![Build Status](https://travis-ci.org/estantevirtual/state_machine.svg?branch=master)](https://travis-ci.org/estantevirtual/state_machine)
+[![Build Status](https://travis-ci.org/rafaels88/rmachine.svg?branch=master)](https://travis-ci.org/rafaels88/rmachine)
 
 ```ruby
 class Entity
