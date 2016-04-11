@@ -1,2 +1,4 @@
-class StateTransactionNotPermittedError < StandardError
+module RMachine
+  class StateTransactionNotPermittedError < StandardError
+  end
 end

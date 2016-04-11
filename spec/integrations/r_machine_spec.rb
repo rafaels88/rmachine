@@ -66,7 +66,7 @@ describe Entity do
           end
 
           it "raises StateTransactionNotPermittedError" do
-            expect { subject.event_without_param }.to raise_error StateTransactionNotPermittedError
+            expect { subject.event_without_param }.to raise_error RMachine::StateTransactionNotPermittedError
           end
         end
       end
@@ -77,7 +77,7 @@ describe Entity do
         end
 
         it "raises StateTransactionNotPermittedError" do
-          expect { subject.event_without_param }.to raise_error StateTransactionNotPermittedError
+          expect { subject.event_without_param }.to raise_error RMachine::StateTransactionNotPermittedError
         end
       end
     end
@@ -124,7 +124,7 @@ describe Entity do
 
         context "when #event_with_param is NOT called with correct_param" do
           it "raises StateTransactionNotPermittedError" do
-            expect { subject.event_with_param(:any) }.to raise_error StateTransactionNotPermittedError
+            expect { subject.event_with_param(:any) }.to raise_error RMachine::StateTransactionNotPermittedError
           end
         end
       end
@@ -135,7 +135,7 @@ describe Entity do
         end
 
         it "raises StateTransactionNotPermittedError" do
-          expect { subject.event_with_param(:any) }.to raise_error StateTransactionNotPermittedError
+          expect { subject.event_with_param(:any) }.to raise_error RMachine::StateTransactionNotPermittedError
         end
       end
     end
