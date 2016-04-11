@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    r_machine (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,8 +65,9 @@ PLATFORMS
 DEPENDENCIES
   byebug
   guard-rspec
+  r_machine!
   rake
   rspec
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

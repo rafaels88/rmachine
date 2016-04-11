@@ -6,3 +6,5 @@ group :test, :development do
   gem 'byebug'
   gem 'guard-rspec', require: false
 end
+
+gemspec

@@ -1,3 +1,12 @@
+require 'r_machine/event'
+require 'r_machine/rule'
+require 'r_machine/state_template'
+require 'r_machine/state_notifier_factory'
+require 'r_machine/notifiers/call_event_method_notifier'
+require 'r_machine/notifiers/change_state_value_notifier'
+require 'r_machine/notifiers/retrieve_state_value_notifier'
+require 'r_machine/state_transaction_not_permitted_error'
+
 module RMachine
   def self.included(base)
     base.extend(ClassMethods)
