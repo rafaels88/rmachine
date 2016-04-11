@@ -8,11 +8,13 @@ Current stable version [v0.1.0](https://github.com/rafaels88/rmachine/tree/v0.1.
 
 ### Install
 
+Console
+
 `gem install r_machine -v 0.1.0`
 
-or put in your Gemfile
+or in your Gemfile
 
-`gem 'r_machine' ~> 0.1.0`
+`gem 'r_machine', '~> 0.1.0'`
 
 
 ## QuickStart
