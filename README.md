@@ -4,9 +4,9 @@
 
 ## Summary
 
-RMachine is a simple **State Machine** library built for Ruby Applications.
+RMachine is a simple **State Machine** library built for Ruby 2.1+ applications.
 
-Current stable version [v0.1.0](https://github.com/rafaels88/rmachine/tree/v0.1.0). Tested on 2.1.5 Ruby version. Recommended for >= 2.1.5 versions.
+Current stable version [v0.1.0](https://github.com/rafaels88/rmachine/tree/v0.1.0).
 
 ## Install
 
