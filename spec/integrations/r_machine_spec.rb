@@ -1,14 +1,13 @@
-require 'byebug'
 require 'spec_helper'
-require_relative '../../lib/state_machine'
-require_relative '../../lib/state_machine/event'
-require_relative '../../lib/state_machine/rule'
-require_relative '../../lib/state_machine/state_template'
-require_relative '../../lib/state_machine/state_notifier_factory'
-require_relative '../../lib/state_machine/notifiers/call_event_method_notifier'
-require_relative '../../lib/state_machine/notifiers/change_state_value_notifier'
-require_relative '../../lib/state_machine/notifiers/retrieve_state_value_notifier'
-require_relative '../../lib/state_machine/state_transaction_not_permitted_error'
+require_relative '../../lib/r_machine'
+require_relative '../../lib/r_machine/event'
+require_relative '../../lib/r_machine/rule'
+require_relative '../../lib/r_machine/state_template'
+require_relative '../../lib/r_machine/state_notifier_factory'
+require_relative '../../lib/r_machine/notifiers/call_event_method_notifier'
+require_relative '../../lib/r_machine/notifiers/change_state_value_notifier'
+require_relative '../../lib/r_machine/notifiers/retrieve_state_value_notifier'
+require_relative '../../lib/r_machine/state_transaction_not_permitted_error'
 require_relative 'shared_contexts/entity'
 
 describe Entity do
@@ -142,21 +141,3 @@ describe Entity do
     end
   end
 end
-
-
-#class Rule
-  #def self.call(params)
-    #rule_interfaces = {
-      #if: ConditionalRule,
-      #from: FromRule
-    #}
-    #interfaces = params.map do |rule_name, rule_arg|
-      #rule_interfaces[rule_name]
-    #end
-    #Rule.new(interfaces)
-  #end
-
-  #def initialize(interfaces)
-
-  #end
-#end

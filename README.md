@@ -1,4 +1,4 @@
-# State Machine
+# RMachine
 
 [![Build Status](https://travis-ci.org/rafaels88/rmachine.svg?branch=master)](https://travis-ci.org/rafaels88/rmachine)
 

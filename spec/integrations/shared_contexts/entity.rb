@@ -1,7 +1,7 @@
 class Entity
-  include StateMachine
+  include RMachine
 
-  state_machine do |state|
+  rmachine do |state|
     state.field = :status
     state.initial = :created
 

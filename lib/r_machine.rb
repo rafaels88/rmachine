@@ -1,4 +1,4 @@
-module StateMachine
+module RMachine
   def self.included(base)
     base.extend(ClassMethods)
   end
@@ -23,7 +23,7 @@ module StateMachine
   private
 
   module ClassMethods
-    def state_machine
+    def rmachine
       @@state_template = StateTemplate.new
       yield @@state_template
     end
